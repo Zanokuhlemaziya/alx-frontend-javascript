@@ -30,7 +30,7 @@ export default class HolbertonCourse {
       throw new TypeError('Name must be a string');
     }
     this._name = name;
-    }
+  }
 
   set length(length) {
     if (typeof length !== 'number') {
