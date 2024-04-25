@@ -24,7 +24,7 @@ export default class Pricing {
     if (typeof amount !== 'number') {
       throw new TypeError('Amount must be a number');
     }
-  this._amount = amount;
+    this._amount = amount;
   }
 
   set currency(currency) {
