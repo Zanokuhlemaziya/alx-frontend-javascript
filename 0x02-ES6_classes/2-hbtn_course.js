@@ -35,9 +35,11 @@ export default class HolbertonCourse {
   }
 
   set students(value) {
-    value.forEach((element) =>                                                               if (typeof element !== 'string') {
+    value.forEach((element) =>
+      if (typeof element !== 'string') {
         throw new TypeError('Students must be an array of strings');
       }
-   });                                                                                    this._students = value;                                                            
+   });
+   this._students = value;
   }
 }

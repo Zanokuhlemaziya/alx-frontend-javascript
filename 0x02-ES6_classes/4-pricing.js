@@ -20,6 +20,7 @@ export default class Pricing {
   get currency() {
     return this._currency;
   }
+  
   set currency(value) {
     this._currency = value;
   }
